@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fde8f7; /* Fondo pastel */
+    color: #5c4b51; /* Texto suave */
+}
+
+header {
+    background: #f9c5d1; /* Rosa pastel */
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #a64d79; /* Rosa oscuro */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de introducción */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagen-lateral {
+    max-width: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+/* Destacado */
+.destacado {
+    padding: 20px;
+    text-align: center;
+}
+
+.destacado h2 {
+    color: #a64d79;
+}
+
+.destacado ul {
+    list-style: none;
+    padding: 0;
+}
+
+.destacado li {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #f9c5d1;
+}
